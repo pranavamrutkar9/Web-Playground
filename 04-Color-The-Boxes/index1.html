@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #333;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#colorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#colorButton:hover {
+    background-color: #388E3C;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;">🎨 Color the Boxes</h1>
+    <div class="container">
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+    </div>
+    <div class="btn-container">
+        <button id="colorButton">Color All Boxes</button>
+    </div>
+    <!-- <script src="script.js"></script> -->
+
+    <script src="script1.js  "></script>
+</body>
+
+</html>
