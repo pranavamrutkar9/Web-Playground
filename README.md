@@ -12,6 +12,10 @@ I’ll **keep updating** this repo with new projects as I continue learning and 
 | #   | Project Name             | Folder Link           |
 |-----|---------------------------|-----------------------|
 | 1️⃣  | 🎯 Kanban Board - Drag and Drop | [Kanban-Board](./01-Kanban-Board/) |
+| 2️⃣  | ⚙️ Dynamic Website Builder | [Dynamic Website Builder](./02-Dynamic-Website-Builder/) |
+| 3️⃣  | ⌨️ Hacker Terminal Simulator | [Hacker Terminal Simulator](./03-Hacker-Terminal-Simulator/) |
+| 4️⃣  | 🌈 Color The Boxes | [Color The Boxes](./04-Color-The-Boxes/) |
+
 
 ---
 
